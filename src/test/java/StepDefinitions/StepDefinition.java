@@ -12,7 +12,7 @@ WebDriver driver;
     
 	@Given("the user opens the browser")
 	public void the_user_opens_the_browser_1() {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\heman\\Desktop\\UST_Workspace\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 	}
@@ -70,7 +70,7 @@ WebDriver driver;
 	}
         
         
-    	@Given("the user opens the browser2")
+    	/*@Given("the user opens the browser2")
     	public void opens_the_browser_2() {
     		System.setProperty("webdriver.chrome.driver","C:\\Users\\heman\\Desktop\\UST_Workspace\\chromedriver.exe");
     		driver = new ChromeDriver();
@@ -222,7 +222,7 @@ driver.findElement(By.id("address-form-submit")).click();
     driver.close();
     
 
-}
+}*/
 
 
 }
