@@ -68,6 +68,7 @@ WebDriver driver;
         System.out.println("Window closed");
         driver.close();
 	}
+	
         
         
     	/*@Given("the user opens the browser2")
