@@ -12,7 +12,7 @@ WebDriver driver;
     
 	@Given("the user opens the browser")
 	public void the_user_opens_the_browser_1() {
-		System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\heman\\Desktop\\UST_Workspace\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 	}
@@ -72,7 +72,7 @@ WebDriver driver;
         
     	@Given("the user opens the browser2")
     	public void opens_the_browser_2() {
-    		System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
+    		System.setProperty("webdriver.chrome.driver","C:\\Users\\heman\\Desktop\\UST_Workspace\\chromedriver.exe");
     		driver = new ChromeDriver();
     		driver.manage().window().maximize();
     	}
@@ -124,7 +124,7 @@ WebDriver driver;
 
 @Given("the user opens the browser3")
 public void opens_the_browse3() {
-	System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
+	System.setProperty("webdriver.chrome.driver","C:\\Users\\heman\\Desktop\\UST_Workspace\\chromedriver.exe");
 	driver = new ChromeDriver();
 	driver.manage().window().maximize();
 }
@@ -173,7 +173,7 @@ driver.close();
 
 @Given("the user opens the browser4")
 public void opens_the_browse4() {
-	System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
+	System.setProperty("webdriver.chrome.driver","C:\\Users\\heman\\Desktop\\UST_Workspace\\chromedriver.exe");
 	driver = new ChromeDriver();
 	driver.manage().window().maximize();
 }
